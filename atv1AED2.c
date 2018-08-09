@@ -40,9 +40,9 @@ void selecao (int vet[]){
 }
 
 void bubble (int vet[]) {
-    int k, j, aux;
+    int i, j, aux;
 
-    for (k = 1; k < TAM; k++) {
+    for (i = 1; i < TAM; i++) {
         for (j=0; j<TAM-1; j++) {
             if (vet[j] > vet[j + 1]) {
                 aux = vet[j];
@@ -54,10 +54,12 @@ void bubble (int vet[]) {
     imprimeVetor(vet);
 }
 
-
-
 int main (){
-    int vet [TAM]= {55,6,0,7,88,54,1,7,13,30};
+    int vet [TAM];
+    int i;
+
+    for (i=0; i<TAM; i)
+
 
     insercao(vet);
     selecao(vet);
