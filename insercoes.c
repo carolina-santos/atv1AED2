@@ -57,7 +57,6 @@ int main (){
     int vet [TAM];
     int i;
 
-    for (i=0; i<TAM; i)
 
 
     insercao(vet);
