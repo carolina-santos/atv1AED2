@@ -53,7 +53,6 @@ void insercao (int vet[]){
     for (i=1; i<TAM; i++){
         min = vet[i];
         j=i-1;
-        //vet[0] = min; 
         while ((j>=0)&&(vet[j]>min)){
             vet[j+1] = vet[j];
             j--;
